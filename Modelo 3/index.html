@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Republic Bar</title>
+    <link rel="shortcut icon" href="rb-logo.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form method="post" action="$PORTAL_ACTION$">
+        <div class="card">
+            <div class="card-left">
+                <img class="fundo-caip" src="rb-caip.jpg" alt="background image">
+            </div>
+
+            <div class="card-right">
+                <img class="logo-rb" src="rb-logo2.jpg" alt="logo republic bar">
+                <div class="card-information">
+                    <input type="text" name="auth_user" class="user" placeholder="Digite aqui seu nome de usuário">
+                </div>
+    
+                <div class="card-information">
+                    <input type="password" name="auth_pass" placeholder="Digite aqui a sua senha"
+                    class="password">
+                </div>
+    
+                <div class="card-information">
+                    <hr class="line">
+                    <input type="text" name="auth_voucher" placeholder="Digite aqui o seu voucher"
+                    class="voucher">
+                </div>
+    
+                <input type="hidden" name="rediurl" value="$PORTAL_REDIRURL$">
+                <input type="hidden" name="zone" value="$PORTAL_ZONE$">
+                <div class="card-button">
+                    <button type="submit" name="accept" value="Continue">Acessar Wi-Fi</button>
+                </div>
+
+                <div>
+                    <p style="text-align: center; color: black; font-size: 15px; margin-bottom: 2px;">Made by <i style="color: #00263a;">SATTO Telecom Jr</i>.</p>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

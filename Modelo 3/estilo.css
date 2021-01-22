@@ -1,0 +1,140 @@
+body{
+    background-color: #c9c9c1;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 320px;
+    margin-left: 340px;
+    margin-top: 80px;
+}
+
+
+.fundo-caip{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.logo-rb{
+    width: 200px;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.line{
+    width: 275px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+.card-information{
+    padding-left: 20px;
+}
+
+.card-information > input{
+    width: 260px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.card-button{
+    padding-left: 20px;
+}
+
+.card-button > button{
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 0px;
+    width: 285px;
+    padding: 10px;
+    font-size: 100%;
+    background-image: linear-gradient(to right, #4c962f,#3daa00);
+    color: white;
+}
+
+.card-button button:hover{
+    background-image: linear-gradient(to right, #82996d, #4c962f);
+}
+
+::-webkit-input-placeholder{
+    color: grey;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+
+    .card {
+        display: table;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .card-right{
+        padding-left: 10%;
+    }
+
+    .logo-rb{
+        padding: 0 auto;
+    }
+
+    .line{
+        width: 255px;
+        margin-right: 110px;
+        margin-left: 10px;
+    }
+
+    .fundo-caip {
+        border-radius: 15px;  
+    }
+}
+
+@media screen and (min-width: 569px) and (max-width: 1024px){
+
+    .card {
+        display: table;
+        width: 50%;
+        height: 50%;
+        margin: 0 auto;
+    }
+
+    .card-right{
+        padding-left: 10%;
+    }   
+
+    .card-information > input{
+        width: 250px;
+        padding: 0 auto;
+    }
+
+    .card-button > button{
+        width: 265px;
+        padding: 0 auto;
+    }
+
+    .logo-rb{
+        padding: 0 auto;
+    }
+
+    .line{
+        width: 255px;
+        margin-right: 110px;
+        margin-left: 10px;
+    }
+
+    .fundo-caip {
+        border-radius: 15px;
+    }
+}

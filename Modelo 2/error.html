@@ -1,0 +1,51 @@
+<DOCTYPE: html>
+    <html>
+        <head>
+            <title>
+               Wi-Fi Glow
+            </title>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <main class= "login">
+                <div class="image">
+                    <img src="1234.jpg" alt="logo image" class= "logo">
+                </div>
+                <h1 class= "name">
+                    Glow do Glow
+                </h1>
+                <h4>
+                    <form form class="form" method="post" action="$PORTAL_ACTION$">
+                        <div class="error">
+                            <label class="text-center">Ocorreu um erro de autenticação:</label>
+                            <label class="text-center">"$PORTAL_MESSAGE$"</label>
+                        </div>
+                        <hr>
+                        <!--Username-->
+                        <label for="username">
+                            Usuário
+                        </label>
+                        <input type="text" name="auth_user" placeholder="Necessário possuir cadastro...">
+                        <hr>
+                         <!--Password-->
+                         <label for="password">
+                            Senha
+                        </label>
+                        <input type="password" name="auth_pass" placeholder="Necessário possuir cadastro...">
+                        <hr>
+                        <!--Voucher-->
+                        <label for="voucher">
+                            Voucher
+                        </label>
+                        <input type="text" name="auth_voucher" placeholder="Cliente...">
+                        <hr>
+                        <button type="submit" name="accept" value="Continue">Conectar</button>
+
+                        <label style="text-align: right; margin-top: 10px;">by <img src="satto.png" alt="satto" width="20"></label>
+                    </form>
+                </h4>
+            </main>  
+        </body>
+    </html>

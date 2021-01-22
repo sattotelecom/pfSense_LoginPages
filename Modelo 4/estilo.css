@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(rb.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    text-align: center;
+}
+
+.logo-rb{
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+.card-information > input{
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.usuario{
+    width: 250px;
+    text-align: center;
+}
+
+.senha{
+    width: 250px;
+    text-align: center;
+}
+
+.voucher{
+    width: 250px;
+    text-align: center;
+}
+
+.linha{
+    width: 250px;
+}
+
+.card-button > button{
+    margin-top: 5px;
+    border-radius: 20px;
+    border: 0px;
+    width: 265px;
+    padding: 10px;
+    font-size: 100%;
+    background-image: linear-gradient(to right, #4c962f,#3daa00);
+    color: white;
+}
+
+.card-button button:hover{
+    background-image: linear-gradient(to right, #82996d, #4c962f);
+}
+
+.text-center{
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width:320px) and (max-width:568px){
+    form {
+        position: relative;
+        margin: 0 auto;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .logo-rb {
+        width: 75%;
+        height: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px){
+    form {
+        position: relative;
+        margin: auto;
+        width: 80vw;
+    }
+
+    .logo-rb {
+        width: 30%;
+        height: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    form {
+        position: relative;
+        margin: auto;
+        width: 80vw;
+    }
+
+    .logo-rb {
+        width: 25%;
+        height: 25%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,102 @@
+body{
+	background-image: url(Logo_Original.png);
+	background-size: 300px 100px;
+	font-family: monospace;
+}
+
+hr{
+	width: 103%; 
+	background-color: #ff8c00; 
+	height: 2px;
+	border: 0;
+}
+
+footer{
+	text-align: right;
+	font-size: 11px;
+}
+
+a{
+	color: #ff8c00;
+}
+
+a:hover{
+	color: #1c1c1c;
+}
+
+.card{
+	box-shadow: 1px 1px 5px #1c1c1c;
+	background-color: white;
+	padding: 18px;
+	border-radius: 5px;
+}
+
+.card-top{
+	text-align: center;
+}
+
+.card-group{
+	margin-bottom: 10px;
+	width: 97%;
+}
+
+.card-group > label{
+	color: black;
+	display: block;
+}
+
+.card-group > input{
+	border-radius: 5px;
+	outline: 0;
+	width: 100%;
+	height: 20px;
+	padding: 5px;
+}
+
+.card-group > button{
+	background-color: #ff8c00;
+	width: 100%;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.card-group > button:hover{
+	color: white;
+	background-color: #1c1c1c;
+}
+
+.imgSatto{
+	width: 100px;
+	box-shadow: 0px 0px 5px #ff8c00
+}
+
+.titulo{
+	color: #ff8c00;
+}
+
+@media only screen and (max-width: 320px){
+	form {
+		position: center;
+		margin: auto;
+		padding: 100px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	form {
+		position: relative;
+		width: 500px;
+		margin: auto;
+		padding: 100px;
+	}
+}
+
+@media only screen and (min-width: 1350px){
+	form {
+		position: relative;
+		width: 500px;
+		margin: auto;
+		height: 100px;
+	}
+}

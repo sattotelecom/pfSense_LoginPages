@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Autenticação</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/css" href="satto.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form class="form" method="post" action="$PORTAL_ACTION$">
+		<div class="card">
+			<div class="card-top">
+				<img class="imgSatto" src="LogoTransp.png">
+				<h2 class="titulo">Controle de Acesso Wi-Fi</h2>
+			</div>
+			<div class="card-group">
+				<label>Usuário:</label>
+				<small>Espaço reservado para membros efetivos.</small>
+				<input type="text" name="auth_user" placeholder="Digite nome cadastrado...">
+			</div>
+			<div class="card-group">	
+				<label>Senha:</label>
+				<input type="password" name="auth_pass" placeholder="Digite senha cadastrada...">
+				<hr>
+			</div>
+			<div class="card-group">	
+				<label>Digite abaixo sua credencial obtida com membro responsável:</label>
+				<input type="text" name="auth_voucher" placeholder="Digite seu voucher...">
+			</div>
+			<div class="card-group">	
+				<button type="submit" name="accept" value="Continue">Acessar</button>
+			</div>
+			<div class="card-group">
+				<footer>
+					<label>Feito com 🤘/🥰/😎/❤️ por <a href="https://www.instagram.com/_jv.pinheiro/">JV Pinheiro</a>.</label>
+				</footer>	
+			</div>
+
+			<input type="hidden" name="rediurl" value="$PORTAL_REDIRURL$">
+			<input type="hidden" name="zone" value="$PORTAL_ZONE$">
+		</div>
+	</form>
+</body>
+</html>
